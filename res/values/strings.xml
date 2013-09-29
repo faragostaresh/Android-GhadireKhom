@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ghadirekhom</string>
+    <string name="app_desc">Ghadirekhom</string>
+    <string name="action_settings">Settings</string>
+    <string name="fixaddress">info@faragostaresh.com</string>
+    <string name="faragostaresh">Faragostaresh</string>
+    <string name="image">image</string>
+
+    <string name="about_us_text_1">فَلْیُبَلِّغِ الْحاضِرُ الْغائِبَ وَ الْوالِدُ الْوَلَدَ اِلى یَوْمِ الْقِیامَةِ</string>
+    <string name="about_us_text_2">پس باید که واقعه غدیر خم را حاضران به غائبان گزارش کنند و پدران به فرزندان تا روز رستاخیز خبر دهند</string>
+    <string name="about_us_text_3">نرم افزار پیش رو حاصل تجربه ای نزدیک به ده سال حضور در عرصه وب و به عنوان یک مبلغ کوچک فرهنگ شیعه است. با توجه به همه گیر شدن استفاده از تلفن های همراه هوشمند ضرورت حضور در این عرصه و معرفی فرهنگ ناب شیعه ، بخصوص واقعه غدیر و مباحث پیرامون آن احساس می شود. نرم افزار پیش رو تلاشی است از وب سایت غدیر خم به منظور فراهم آوردن این هدف ، این نرم افزار به طور مستقیم از طریق وب سایت غدیر خم به روز می شود و آخرین مطالب درج شده در وب سایت از طریق نرم افزار هم در دسترس شما است.</string>
+    <string name="about_us_text_4">پیاده سازی و توسعه نرم افزار اندروید غدیرخم به سفارش موسسه سروش بیداری غدیر خم و توسط فراگسترش به انجام رسیده است</string>
+    
+    <string name="btnsend">ارسال</string>
+    <string name="subject">موضوع</string>
+    <string name="name">نام</string>
+    <string name="email">ایمیل</string>
+    <string name="message">پیام</string>
+    
+    <string name="d_internet">خطا اتصال اینترنت</string>
+    <string name="d_internet_contact">برای استفاده از بخش تماس با ما، ابتدا باید به اینترنت وصل شوید.</string>
+    <string name="d_internet_image">برای لود شدن تصاویر از وب سایت، ابتدا باید به اینترنت وصل شوید.</string>
+    <string name="d_internet_access">نرم افزار به اینترنت دسترسی ندارد. در نتیجه امکان به روز رسانی داده ها وجود نداشته و نسخه آفلاین به شما نمایش داده می شود</string>
+    <string name="d_internet_access_count">برای اولین استفاده باید به اینترنت وصل شوید تا اطلاعات از طریق وب سایت به روز شود</string>
+    <string name="d_processing">در حال دریافت اطلاعات</string>
+    <string name="d_wait">این روند اندکی زمان بر است، لطفا صبر داشته باشید.</string>
+    <string name="d_error">خطا</string>
+    <string name="d_content">تمام فیلد ها را باید تکمیل کنید</string>
+    
+    <string name="update_title">نسخه جدید نرم افزار منتشر شد</string>
+    <string name="update_now">به روز کن</string>
+    <string name="update_remind_later">بعدا اطلاع بده</string>
+    <string name="update_ignore">نادیده بگیر</string>
+    
+    <string name="title_content">تماس با ما</string>
+    <string name="title_live">پخش زنده</string>
+
+</resources>

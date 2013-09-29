@@ -1,0 +1,17 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#00000000"
+    android:fontFamily="Tahoma"
+    android:gravity="right"
+    android:layoutDirection="rtl"
+    android:lineSpacingExtra="12sp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="4dp"
+    android:textColor="#222222"
+    android:textIsSelectable="false"
+    android:textSize="18sp" />
+

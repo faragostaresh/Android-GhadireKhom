@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail_list"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:cacheColorHint="#00000000"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:padding="1dip" >
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:cacheColorHint="#00000000"
+            android:contentDescription="@string/image"
+            android:fontFamily="Tahoma"
+            android:gravity="right"
+            android:layoutDirection="rtl"
+            android:padding="5dp"
+            android:src="@drawable/icon1" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:fontFamily="Tahoma"
+            android:gravity="right"
+            android:layoutDirection="rtl"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#222222"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thumbnail_list"
+        android:cacheColorHint="#00000000"
+        android:contentDescription="@string/image"
+        android:src="@drawable/listbg" />
+
+</RelativeLayout>

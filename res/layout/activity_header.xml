@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/header"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:tileMode="repeat" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/faragostaresh"
+        android:gravity="right"
+        android:scaleType="fitXY"
+        android:src="@drawable/headerlogo" />
+
+</LinearLayout>

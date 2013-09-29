@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:tileMode="repeat" >
+
+    <RelativeLayout
+        android:id="@+id/rHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/activity_header" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp" >
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <TextView
+                    android:id="@+id/showtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Tahoma"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:padding="1dp"
+                    android:textColor="#222222"
+                    android:textIsSelectable="true"
+                    android:textSize="26sp" />
+
+                <ImageView
+                    android:id="@+id/showimage"
+                    android:layout_width="320dp"
+                    android:layout_height="260dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="2dp"
+                    android:contentDescription="@string/faragostaresh"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:src="@drawable/loader" />
+
+                <TextView
+                    android:id="@+id/showbody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Tahoma"
+                    android:gravity="right"
+                    android:layoutDirection="rtl"
+                    android:lineSpacingExtra="12sp"
+                    android:padding="5dp"
+                    android:textColor="#222222"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/footer"
+            layout="@layout/activity_footer" />
+    </RelativeLayout>
+
+</LinearLayout>
