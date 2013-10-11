@@ -17,7 +17,7 @@ import com.google.analytics.tracking.android.EasyTracker;
 
 public class MainActivity extends Activity {
 
-	private ListView lv;
+	public ListView lv;
 	public MainListAdapter adapter;
 
 	public static final String KEY_TITLE = "title";
@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 		super.onCreate(bundle);
 		setContentView(R.layout.activity_main);
 		
+		// Check for new version
 		checkVersion();
 
 		// Set list array

@@ -61,7 +61,7 @@
                     android:lineSpacingExtra="16sp"
                     android:padding="5dp"
                     android:text="@string/about_us_text_1"
-                    android:textColor="#222222"
+                    android:textColor="#ffffff"
                     android:textSize="24sp" />
                 
                 <TextView
@@ -74,7 +74,7 @@
                     android:lineSpacingExtra="16sp"
                     android:padding="5dp"
                     android:text="@string/about_us_text_2"
-                    android:textColor="#222222"
+                    android:textColor="#ffffff"
                     android:textSize="14sp" />
                 
                 <TextView
@@ -87,7 +87,7 @@
                     android:lineSpacingExtra="16sp"
                     android:padding="5dp"
                     android:text="@string/about_us_text_3"
-                    android:textColor="#222222"
+                    android:textColor="#ffffff"
                     android:textSize="18sp" />
                 
                 <ImageView
@@ -109,7 +109,7 @@
                     android:lineSpacingExtra="16sp"
                     android:padding="2dp"
                     android:text="@string/about_us_text_4"
-                    android:textColor="#222222"
+                    android:textColor="#ffffff"
                     android:textSize="18sp" />
 
                 <ImageView

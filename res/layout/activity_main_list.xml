@@ -38,7 +38,7 @@
             android:layoutDirection="rtl"
             android:padding="5dp"
             android:text=""
-            android:textColor="#222222"
+            android:textColor="#ffffff"
             android:textSize="18sp" />
     </LinearLayout>
 

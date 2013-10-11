@@ -66,7 +66,7 @@
                         android:gravity="right"
                         android:text="@string/name"
                         android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="#222222" />
+                        android:textColor="#ffffff" />
 
                     <EditText
                         android:id="@+id/editTextName"
@@ -84,7 +84,7 @@
                         android:gravity="right"
                         android:text="@string/email"
                         android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="#222222" />
+                        android:textColor="#ffffff" />
 
                     <EditText
                         android:id="@+id/editTextEmail"
@@ -101,7 +101,7 @@
                         android:gravity="right"
                         android:text="@string/subject"
                         android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="#222222" />
+                        android:textColor="#ffffff" />
 
                     <EditText
                         android:id="@+id/editTextSubject"
@@ -118,7 +118,7 @@
                         android:gravity="right"
                         android:text="@string/message"
                         android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="#222222" />
+                        android:textColor="#ffffff" />
 
                     <EditText
                         android:id="@+id/editTextMessage"
@@ -142,7 +142,7 @@
                         android:fontFamily="Tahoma"
                         android:gravity="center"
                         android:text="@string/btnsend"
-                        android:textColor="#222222" />
+                        android:textColor="#ffffff" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

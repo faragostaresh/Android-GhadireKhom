@@ -34,7 +34,7 @@
             android:gravity="right"
             android:layoutDirection="rtl"
             android:padding="1dp"
-            android:textColor="#222222"
+            android:textColor="#ffffff"
             android:textSize="18sp" >
         </ListView>
 
